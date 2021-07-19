@@ -1,0 +1,87 @@
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 5px;
+    color: #fff;
+    background-color: #615e5ef7;
+    text-align: center;
+    border-radius: 10px;
+  }
+  form input[type='text'],
+  form input[type='email'] {
+    width: 90%;
+    height: 30px;
+    font-size: 1.5rem;
+    padding: 2px 5px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+  }
+  form div span {
+    display: block;
+    margin: 10px auto;
+  }
+  form button {
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 50px;
+  }
+  form button:hover {
+    background-color: rgb(8, 119, 32);
+  }
+}
+
+@media (min-width: 900px) {
+  /* big landscape tablets, laptops, and desktops */
+  form {
+    display: grid;
+    /* align-items: center; */
+    /* justify-content: center; */
+    max-width: 400px;
+    max-height: 600px;
+    margin: 10px 20px;
+    margin-top: 400px;
+    padding: 5px;
+    color: #fff;
+    background-color: #615e5ef7;
+    /* text-align: center; */
+    border-radius: 10px;
+  }
+  form .title-form {
+    font-size: 2.5rem;
+  }
+  form input[type='text'],
+  form input[type='email'] {
+    width: 90%;
+    height: 30px;
+    font-size: 1.5rem;
+    padding: 2px 5px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+  }
+  form div span {
+    display: block;
+    /* margin: 5px 0; */
+  }
+  form button {
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 50px;
+  }
+  form button:hover {
+    background-color: rgb(8, 119, 32);
+  }
+}

@@ -1,0 +1,26 @@
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .App {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  header img {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    /* margin-top: 20px auto; */
+  }
+  .App footer {
+    margin: 30px auto;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 900px) {
+  /* big landscape tablets, laptops, and desktops */
+  .App .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
